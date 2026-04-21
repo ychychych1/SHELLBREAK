@@ -2,30 +2,30 @@
 # Contains all API configurations and execution parameters
 
 # 1. Local decomposition model API configuration
-DECOMP_API_KEY = "sk-7SifNYgCINhaWSLykqqgUBdmQsF7aY5FpVcwrMmLWa7jP5Xw"
-DECOMP_BASE_URL = "https://www.DMXapi.com/v1/chat/completions"
-DECOMP_MODEL = "qwen-plus"
+DECOMP_API_KEY = "YOUR_DECOMP_API_KEY"
+DECOMP_BASE_URL = "YOUR_DECOMP_BASE_URL"
+DECOMP_MODEL = "YOUR_DECOMP_MODEL"
 
 # 2. Local integration model API configuration
-INTEGRATED_API_KEY = "sk-7SifNYgCINhaWSLykqqgUBdmQsF7aY5FpVcwrMmLWa7jP5Xw"
-INTEGRATED_BASE_URL = "https://www.DMXapi.com/v1/chat/completions"
-INTEGRATED_MODEL = "qwen-plus"
+INTEGRATED_API_KEY = "YOUR_INTEGRATED_API_KEY"
+INTEGRATED_BASE_URL = "YOUR_INTEGRATED_BASE_URL"
+INTEGRATED_MODEL = "YOUR_INTEGRATED_MODEL"
 
 # 3. Victim LLM API configuration
-VICTIM_API_KEY = "sk-7SifNYgCINhaWSLykqqgUBdmQsF7aY5FpVcwrMmLWa7jP5Xw"
-VICTIM_BASE_URL = "https://www.DMXapi.com/v1/chat/completions"
-VICTIM_MODEL = "qwen-plus"
+VICTIM_API_KEY = "YOUR_VICTIM_API_KEY"
+VICTIM_BASE_URL = "YOUR_VICTIM_BASE_URL"
+VICTIM_MODEL = "YOUR_VICTIM_MODEL"
 
 # 4. Judge LLM API configuration
-JUDGE_API_KEY = "sk-7SifNYgCINhaWSLykqqgUBdmQsF7aY5FpVcwrMmLWa7jP5Xw"
-JUDGE_BASE_URL = "https://www.DMXapi.com/v1/chat/completions"
-JUDGE_MODEL = "qwen-plus"
+JUDGE_API_KEY = "YOUR_JUDGE_API_KEY"
+JUDGE_BASE_URL = "YOUR_JUDGE_BASE_URL"
+JUDGE_MODEL = "YOUR_JUDGE_MODEL"
 
 # Execution parameters
 MAX_WORKERS = 8
 TIMEOUT = 120
 MAX_RETRIES = 3  # Maximum number of retries for sub-answer generation
-SCORE_THRESHOLD = 7.5  # Quality threshold τ
+SCORE_THRESHOLD = 7  # Quality threshold τ
 TOP_K = 5  # Number of top K sub-answers selected per question
 
 # File path configuration
