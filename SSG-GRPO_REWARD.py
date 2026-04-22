@@ -604,7 +604,6 @@ optimization_reward_function = None
 
 
 def cal_rewards(completions, **kwargs):
-    """全局奖励函数接口"""
     global optimization_reward_function
 
     if optimization_reward_function is None:
