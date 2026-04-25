@@ -1,8 +1,8 @@
-# SSG-GRPO Pipeline
+# SHELLBREAK Pipeline
 
 ## Project Overview
 
-This project implements the SSG-GRPO (Semantic Safety-Guarded Reward Policy Optimization) pipeline for question decomposition and evaluation. The system decomposes complex questions into sub-questions, evaluates safety and quality, generates answers, and produces final integrated responses.
+This project implements the SHELLBREAK pipeline for question decomposition and evaluation. The system decomposes harmful questions into sub-questions, evaluates safety and quality, generates answers, and produces final integrated responses.
 
 ## Project Structure
 
