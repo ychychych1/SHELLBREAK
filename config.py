@@ -29,7 +29,7 @@ SCORE_THRESHOLD = 7  # Quality threshold τ
 TOP_K = 5  # Number of top K sub-answers selected per question
 
 # File path configuration
-INPUT_CSV = "input_questions.csv"  # Input questions CSV file
+INPUT_CSV = "questions.csv"  # Input questions CSV file
 OUTPUT_DIR = "output"  # Output directory
 
 # Intermediate file paths
